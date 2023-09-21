@@ -1,0 +1,20 @@
+Auditorio
+Biblioteca
+Centro medico
+Comedor 1
+Comedor 2
+Departamento academico
+Departamento de investigacion
+Departamento de archivos
+Facultad Pedagogía
+Facultad de ciencias empresariales
+Facultad de ciencias sociales y económicas
+Instituto de informática
+Parqueadero administrativo
+Parqueadero de autoridades
+Parqueadero de estudiantes
+Parqueadero institucional
+Polideportivo
+Rectorado
+Rotonda
+Facultad de salud
