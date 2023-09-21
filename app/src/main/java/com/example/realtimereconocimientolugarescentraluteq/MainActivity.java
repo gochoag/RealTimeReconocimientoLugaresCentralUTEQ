@@ -283,23 +283,23 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         return list;
     }
 //Metodo de proceso de imagen
-private class UpdateTextTask extends AsyncTask<Void, Void, Void> {
-    @Override
-    protected Void doInBackground(Void... params) {
-        try {
+    private class UpdateTextTask extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected Void doInBackground(Void... params) {
+            try {
 
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return null;
         }
-        return null;
-    }
 
-    @Override
-    protected void onPostExecute(Void result) {
-        texttoSpeak();
+        @Override
+        protected void onPostExecute(Void result) {
+            texttoSpeak();
+        }
     }
-}
     private void procesarImagen() {
         imageConverter.run();
 
