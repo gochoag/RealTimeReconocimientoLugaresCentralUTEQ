@@ -288,7 +288,7 @@ private class UpdateTextTask extends AsyncTask<Void, Void, Void> {
     protected Void doInBackground(Void... params) {
         try {
 
-            Thread.sleep(1400);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
